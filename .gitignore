@@ -1,0 +1,39 @@
+# Entorno virtual
+venv/
+env/
+ENV/
+
+# Archivos de Python
+*.py[cod]
+*$py.class
+__pycache__/
+*.so
+.Python
+
+# Django
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+/media
+/staticfiles
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# Variables de entorno
+.env
+.env.local
+
+# Distribución
+dist/
+build/
+*.egg-info/
